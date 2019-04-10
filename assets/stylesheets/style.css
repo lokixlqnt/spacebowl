@@ -69,3 +69,35 @@ video {
   height: auto;
   align-self: center;
 }
+
+.events {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* height: auto; */
+  /* max-height: 200px; */
+}
+
+.left {
+  max-width: 31%;
+  height: auto;
+}
+
+.right {
+  max-width: 62%;
+  flex-shrink: 2;
+}
+
+.left>img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  /* flex-shrink: 1; */
+}
+
+.right>img{
+  width: 100%;
+  max-height: 48%;
+  /* flex-shrink: 2; */
+}
