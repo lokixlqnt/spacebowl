@@ -13,6 +13,8 @@
   </head>
 
 <body>
+  <?php include('header.php'); ?>
+
   <section class="main">
     <h1>Plongez vous dans l'univers de <span class="orange">votre choix</span></h1>
     <p>Jouer avec <span class="bold">Luke Skywalker</span> et <span class="bold">Obi-Wan Kenobi</span>, sauver le monde de sa destruction par <span class="bold">Thanos</span> en effectuant un <span class="orangebold">strike</span>, se laisser surprendre par les <span class="bold">fantômes</span> et <span class="bold">zombies</span> qui rôdent sur les pistes...
@@ -26,5 +28,7 @@ Chez <span class="orangebold">Space’Bowl</span>, tout cela est <span class="or
 
 
   </section>
+  <?php include('footer.php'); ?> 
+
 </body>
 </html>

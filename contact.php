@@ -14,6 +14,8 @@
 </head>
 
 <body>
+  <?php include('header.php'); ?>
+
   <section class="main">
     <h1>Vous souhaitez nous contacter ? Remplissez le formulaire <span class="orange">ci-dessous</span>, nous nous efforcerons de vous répondre dans les <span class="orange">meilleurs délais</span>.</h1>
     <div class="form">
@@ -35,4 +37,6 @@
     </div>
 
   </section>
+  <?php include('footer.php'); ?> 
+
 </body>

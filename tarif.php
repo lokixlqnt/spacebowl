@@ -13,7 +13,9 @@
   <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <body>
+  <?php include('header.php') ?>
 <div class ="tarif">
+  <h2>Calculez le tarif </h2>
 <form class="" action="" method="GET">
   <fieldset>
     Semaine (du lundi au vendredi)
@@ -72,7 +74,7 @@ $price_child = 4;
    if ($count > 6) {
        echo 'Le nombre de joueurs doit être inférieur à 6';
    } else {
-       echo '<br/> Le total s\'élève à <span class="orangebold>"' . $calcul . '€</span>';
+       echo '<br/> Le total s\'élève à ' . $calcul . '€';
    }
 }
 
@@ -81,5 +83,5 @@ total_price($week_day, $week_night, $weeknd, $teen, $child);
 ?>
 </div>
 
-
+<?php include('footer.php') ?>
 </body>

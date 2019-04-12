@@ -51,3 +51,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #d1700e;
 }
+
+.tarif>h2 {
+  margin-top: 0;
+}

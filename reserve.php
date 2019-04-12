@@ -6,22 +6,17 @@
     <link rel="stylesheet" href="assets/stylesheets/normalize.css">
     <link rel="stylesheet" href="assets/stylesheets/reserve.css">
     <link rel="stylesheet" href="assets/stylesheets/text.css">
-    <!-- <link rel="stylesheet" href="assets/stylesheets/header.css"> -->
+    <link rel="stylesheet" href="assets/stylesheets/header.css">
     <link rel="stylesheet" href="assets/stylesheets/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   </head>
-
 <body>
-  <footer>
-    <h2>Appelez nous au <span class="orange">03 27 28 27 28</span> pour réserver dès maintenant !</h2>
-    <hr class="line">
-    <p>Space’Bowl - Copyright 2019. Tous droits réservés.</p>
-    <div class="icons">
-      <img src="./assets/img/icones/facebook.png" alt="">
-      <img src="./assets/img/icones/twitter.png" alt="">
-      <img src="./assets/img/icones/instagram.png" alt="">
+  <?php include('header.php'); ?>
+  <section class="main">
+    <h1>Réservez dès <span class="orange">maintenant</span> !</h1>
 
-    </div>
-  </footer>
+  </section>
+  <?php include('footer.php'); ?> 
+
 </body>
